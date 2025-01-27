@@ -1,0 +1,950 @@
+[
+  {   "type":"dos",
+    "title": "Tirage à la poulie haute",
+    "description": "Le tirage à la poulie haute est un exercice de musculation qui cible principalement les muscles du dos, notamment les trapèzes et les grands dorsaux.",
+    "img": "https://julienquaglierini.com/wp-content/uploads/2017/10/Tirage-poulie-haute-prise-inversee.jpg",
+    "benefits": [
+      "Renforce les muscles du dos",
+      "Améliore la posture",
+      "Augmente la stabilité de l'épaule",
+      "Améliore la force de préhension"
+    ],
+    "steps": [
+      {
+        "step": "Réglez la poulie à la hauteur de votre poitrine ou légèrement au-dessus."
+      },
+      {
+        "step": "Tenez la barre avec une prise en pronation, les mains légèrement plus larges que la largeur des épaules."
+      },
+      {
+        "step": "Asseyez-vous face à la poulie avec les genoux légèrement fléchis et les pieds bien ancrés au sol."
+      },
+      {
+        "step": "Tirez la barre vers votre poitrine en contractant vos omoplates."
+      },
+      {
+        "step": "Maintenez la position pendant une seconde, puis relâchez lentement la barre en revenant à la position de départ."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas se balancer ou se pencher en arrière pour utiliser la force de son corps plutôt que de ses muscles dorsaux."
+      },
+      {
+        "mistake": "Ne pas tirer la barre avec ses bras. L'effort doit être fourni par les muscles dorsaux."
+      },
+      {
+        "mistake": "Ne pas utiliser une prise trop étroite ou trop large, car cela peut entraîner une tension excessive sur les épaules ou les coudes."
+      }
+    ]
+  },
+  {
+    "type": "dos",
+    "title": "Rowing barre",
+    "description": "Le rowing barre est un exercice de musculation qui sollicite principalement les muscles du dos, en particulier les grands dorsaux, les trapèzes et les rhomboïdes.",
+    "img": "https://julienquaglierini.com/wp-content/uploads/2018/05/Rowing-barre.jpg",
+    "benefits": [
+      "Renforce les muscles du dos",
+      "Améliore la posture",
+      "Développe la force de préhension",
+      "Augmente la stabilité de l'épaule"
+    ],
+    "steps": [
+      {
+        "step": "Placez une barre chargée sur le sol devant vous et tenez-la avec une prise en pronation, les mains légèrement plus larges que la largeur des épaules."
+      },
+      {
+        "step": "Penchez-vous légèrement en avant en gardant le dos droit et les genoux légèrement fléchis."
+      },
+      {
+        "step": "Tirez la barre vers le haut en gardant les coudes près du corps, jusqu'à ce que la barre touche votre poitrine."
+      },
+      {
+        "step": "Maintenez la position pendant une seconde en contractant vos muscles dorsaux, puis relâchez lentement la barre en revenant à la position de départ."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas utiliser son corps pour aider à soulever la barre, mais plutôt se concentrer sur les muscles dorsaux pour effectuer le mouvement."
+      },
+      {
+        "mistake": "Ne pas tirer la barre trop haut, car cela peut entraîner une tension excessive sur les épaules et le cou."
+      },
+      {
+        "mistake": "Ne pas utiliser une prise trop étroite ou trop large, car cela peut entraîner une tension excessive sur les épaules ou les coudes."
+      }
+    ]
+  },
+  {
+    "type": "dos",
+    "title": "Tirage horizontal à la machine",
+    "description": "Le tirage horizontal à la machine est un exercice de musculation qui sollicite principalement les muscles du dos, notamment les grands dorsaux et les trapèzes.",
+    "img": "https://muscu-street-et-crossfit.fr/wp-content/uploads/2022/06/Muscles-Tirage-horizontal.001.jpeg",
+    "benefits": [
+      "Renforce les muscles du dos",
+      "Améliore la posture",
+      "Augmente la stabilité de l'épaule",
+      "Améliore la force de préhension"
+    ],
+    "steps": [
+      {
+        "step": "Réglez la machine à la bonne hauteur et installez-vous en position assise, les jambes fléchies et les pieds bien ancrés au sol."
+      },
+      {
+        "step": "Attrapez les poignées avec une prise en pronation, les mains légèrement plus larges que la largeur des épaules."
+      },
+      {
+        "step": "Tirez les poignées vers l'arrière en gardant les coudes près du corps, jusqu'à ce que vos omoplates soient complètement contractées."
+      },
+      {
+        "step": "Maintenez la position pendant une seconde, puis relâchez lentement les poignées en revenant à la position de départ."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas utiliser son corps pour aider à tirer les poignées, mais plutôt se concentrer sur les muscles dorsaux pour effectuer le mouvement."
+      },
+      {
+        "mistake": "Ne pas tirer les poignées trop près de votre corps, car cela peut entraîner une tension excessive sur les épaules et le cou."
+      },
+      {
+        "mistake": "Ne pas utiliser une prise trop étroite ou trop large, car cela peut entraîner une tension excessive sur les épaules ou les coudes."
+      }
+    ]
+  },{
+  "type": "poitrine",
+  "title": "Développé couché",
+  "description": "Le développé couché est un exercice de musculation qui cible principalement les muscles de la poitrine, les triceps et les épaules.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2021/09/Muscles-DC.001.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les muscles de la poitrine",
+    "Augmente la force du haut du corps",
+    "Améliore la stabilité de l'épaule",
+    "Améliore la posture"
+  ],
+  "steps": [
+    {
+      "step": "Allongez-vous sur un banc de musculation avec les pieds bien ancrés au sol et les omoplates serrées."
+    },
+    {
+      "step": "Tenez la barre avec une prise en pronation, les mains légèrement plus larges que la largeur des épaules."
+    },
+    {
+      "step": "Abaissez lentement la barre jusqu'à ce qu'elle touche votre poitrine, en gardant les coudes près du corps."
+    },
+    {
+      "step": "Poussez la barre vers le haut jusqu'à ce que les bras soient tendus, en expirant."
+    },
+    {
+      "step": "Maintenez la position pendant une seconde, puis abaissez lentement la barre en inspirant."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas soulever les fesses du banc, car cela peut entraîner une tension excessive sur le bas du dos."
+    },
+    {
+      "mistake": "Ne pas fléchir les coudes de manière excessive, car cela peut entraîner une tension excessive sur les épaules."
+    },
+    {
+      "mistake": "Ne pas utiliser une prise trop étroite ou trop large, car cela peut entraîner une tension excessive sur les épaules ou les coudes."
+    }
+  ]
+},
+  {
+    "type": "poitrine",
+    "title": "Pompes",
+    "description": "Les pompes sont un exercice de musculation qui cible principalement les muscles de la poitrine, les triceps et les épaules. C'est un exercice de base qui peut être fait n'importe où sans équipement.",
+    "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2022/07/Muscles-pompes.001.jpeg?resize=1080%2C675&ssl=1",
+    "benefits": [
+      "Renforce les muscles de la poitrine",
+      "Améliore la force du haut du corps",
+      "Améliore la stabilité de l'épaule",
+      "Améliore la posture"
+    ],
+    "steps": [
+      {
+        "step": "Placez vos mains à plat sur le sol, légèrement plus larges que la largeur des épaules, et étendez vos jambes en arrière pour vous mettre en position de planche."
+      },
+      {
+        "step": "Gardez votre corps en ligne droite, en serrant vos abdos et vos fessiers."
+      },
+      {
+        "step": "Abaissez votre corps vers le sol en pliant les coudes, en gardant les coudes près du corps."
+      },
+      {
+        "step": "Arrêtez de descendre lorsque votre poitrine touche presque le sol, puis poussez votre corps vers le haut en tendant les bras."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas laisser tomber les hanches vers le sol, car cela peut entraîner une tension excessive sur le bas du dos."
+      },
+      {
+        "mistake": "Ne pas fléchir les coudes de manière excessive, car cela peut entraîner une tension excessive sur les épaules."
+      },
+      {
+        "mistake": "Ne pas lever les fesses en l'air, car cela peut entraîner une tension excessive sur les épaules."
+      }
+    ]
+  },
+  {
+    "type": "poitrine",
+    "title": "Dips",
+    "description": "Les dips sont un excellent exercice pour cibler les muscles de la poitrine, ainsi que les triceps et les épaules. Cet exercice peut être réalisé à l'aide de barres parallèles ou d'une machine à dips.",
+    "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2021/10/Muscles-Dips.001.jpeg?resize=1080%2C675&ssl=1",
+    "benefits": [
+      "Renforce les muscles de la poitrine",
+      "Sollicite les triceps et les épaules",
+      "Améliore la force du haut du corps"
+    ],
+    "steps": [
+      {
+        "step": "Placez vos mains sur les barres parallèles ou sur les poignées de la machine à dips."
+      },
+      {
+        "step": "Soulevez votre corps en tendant les bras, les jambes croisées et les pieds légèrement fléchis."
+      },
+      {
+        "step": "Descendez votre corps en fléchissant les coudes, en gardant les épaules en arrière et le torse droit."
+      },
+      {
+        "step": "Descendez jusqu'à ce que vos bras soient parallèles au sol ou aussi bas que possible."
+      },
+      {
+        "step": "Poussez à travers vos bras pour remonter à la position de départ."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas garder les épaules en arrière et le torse droit pendant l'exercice."
+      },
+      {
+        "mistake": "Ne pas fléchir suffisamment les coudes lors de la descente, ce qui peut réduire l'efficacité de l'exercice."
+      },
+      {
+        "mistake": "Ne pas utiliser une amplitude de mouvement complète, en descendant suffisamment bas pour obtenir une pleine extension de la poitrine."
+      }
+    ]
+  }
+,{
+  "type": "jambes",
+  "title": "Squat",
+  "description": "Le squat est un exercice de musculation qui cible principalement les muscles des jambes, notamment les quadriceps, les ischio-jambiers et les fessiers. C'est un exercice de base qui peut être réalisé avec une barre ou des haltères.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2023/02/Muscles-pistols-squats.001.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les muscles des jambes",
+    "Améliore la stabilité et l'équilibre",
+    "Améliore la force du bas du corps"
+  ],
+  "steps": [
+    {
+      "step": "Placez une barre sur vos épaules, en la maintenant avec une prise en pronation, légèrement plus large que la largeur des épaules."
+    },
+    {
+      "step": "Tenez la barre en vous tenant debout, les pieds écartés à la largeur des épaules, les orteils légèrement tournés vers l'extérieur."
+    },
+    {
+      "step": "Abaissez votre corps en fléchissant les genoux et les hanches, tout en gardant le dos droit."
+    },
+    {
+      "step": "Descendez jusqu'à ce que vos cuisses soient parallèles au sol, ou aussi bas que possible."
+    },
+    {
+      "step": "Poussez à travers vos talons pour revenir à la position debout."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas descendre trop bas si vous ne pouvez pas maintenir une forme correcte."
+    },
+    {
+      "mistake": "Ne pas pousser vos genoux vers l'avant au lieu de fléchir vos hanches, ce qui peut entraîner des blessures aux genoux."
+    },
+    {
+      "mistake": "Ne pas arquer le dos, ce qui peut entraîner des blessures au bas du dos."
+    }
+  ]
+},{
+  "type": "jambes",
+  "title": "Fentes avec haltères",
+  "description": "Les fentes avec haltères sont un excellent exercice pour renforcer les muscles des jambes, y compris les quadriceps, les ischio-jambiers et les fessiers.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2021/09/Muscles-Fentes.002.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les muscles des jambes",
+    "Améliore l'équilibre et la stabilité",
+    "Travaille les muscles stabilisateurs"
+  ],
+  "steps": [
+    {
+      "step": "Tenez une paire d'haltères à vos côtés, les bras tendus."
+    },
+    {
+      "step": "Avancez avec un pied et fléchissez le genou jusqu'à ce que la cuisse soit parallèle au sol, en gardant le genou arrière à quelques centimètres du sol."
+    },
+    {
+      "step": "Poussez sur le talon de votre pied avant pour revenir à la position debout."
+    },
+    {
+      "step": "Répétez l'exercice avec l'autre jambe."
+    },
+    {
+      "step": "Alternez les jambes pour effectuer le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas garder le genou avant aligné avec la cheville lors de la descente, ce qui peut exercer une pression excessive sur le genou."
+    },
+    {
+      "mistake": "Ne pas garder le dos droit pendant l'exercice, ce qui peut causer une tension excessive sur la colonne vertébrale."
+    },
+    {
+      "mistake": "Ne pas fléchir suffisamment le genou avant, ce qui peut réduire l'efficacité de l'exercice."
+    }
+  ]
+},{
+  "type": "jambes",
+  "title": "Soulevé de terre",
+  "description": "Le soulevé de terre est un exercice complet qui renforce les muscles des jambes, des fessiers, du dos et des abdominaux.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2022/06/Muscles-SDT.001.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les muscles des jambes et des fessiers",
+    "Améliore la force du dos",
+    "Améliore la posture"
+  ],
+  "steps": [
+    {
+      "step": "Placez une barre avec des poids devant vous, en vous tenant debout avec les pieds écartés à la largeur des épaules."
+    },
+    {
+      "step": "Accroupissez-vous pour saisir la barre avec une prise en pronation, les mains écartées un peu plus que la largeur des épaules."
+    },
+    {
+      "step": "Redressez lentement les jambes en soulevant la barre, en gardant le dos droit et les bras tendus."
+    },
+    {
+      "step": "Arrêtez de tirer la barre une fois que vous vous tenez droit et verrouillez vos hanches en avant."
+    },
+    {
+      "step": "Ramenez lentement la barre au sol en abaissant votre corps et en pliant vos genoux."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas garder le dos droit lors de l'exercice, ce qui peut causer des douleurs et des blessures au dos."
+    },
+    {
+      "mistake": "Ne pas utiliser la bonne forme, ce qui peut entraîner des blessures aux genoux et aux hanches."
+    },
+    {
+      "mistake": "Ne pas soulever le poids correctement, ce qui peut causer des blessures aux muscles et aux articulations."
+    }
+  ]
+}
+,
+  {
+    "type": "biceps",
+    "title": "Curl incliné",
+    "description": "Le curl incliné est un exercice de musculation qui cible les muscles des bras, notamment les biceps.",
+    "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2023/01/Muscles-biceps-curl-pupitre.001.jpeg?resize=1080%2C675&ssl=1",
+    "benefits": [
+      "Renforce les biceps",
+      "Améliore la définition musculaire des bras",
+      "Stimule la croissance musculaire"
+    ],
+    "steps": [
+      {
+        "step": "Réglez un banc d'haltères incliné à un angle d'environ 45 degrés."
+      },
+      {
+        "step": "Tenez une paire d'haltères avec une prise en supination, les mains à la largeur des épaules et les bras tendus vers le bas."
+      },
+      {
+        "step": "Placez votre dos contre le banc, les pieds bien ancrés sur le sol."
+      },
+      {
+        "step": "Soulevez lentement les haltères en contractant les biceps jusqu'à ce que les mains soient à la hauteur des épaules."
+      },
+      {
+        "step": "Maintenez la position pendant une seconde, puis abaissez lentement les haltères en revenant à la position de départ."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas garder les coudes fixés contre le corps, ce qui peut entraîner une tension excessive sur les épaules."
+      },
+      {
+        "mistake": "Ne pas utiliser une amplitude de mouvement complète, ce qui peut limiter l'efficacité de l'exercice."
+      },
+      {
+        "mistake": "Ne pas maintenir une posture correcte pendant l'exercice, ce qui peut entraîner des douleurs et des blessures au dos."
+      }
+    ]
+  },
+  {
+    "type": "biceps",
+    "title": "Curl marteau",
+    "description": "Le curl marteau est un exercice de musculation qui cible les muscles des bras, notamment les biceps et les avant-bras.",
+    "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2022/07/Muscles-Curl-Concentre.001.jpeg?resize=1080%2C675&ssl=1",
+    "benefits": [
+      "Renforce les biceps et les avant-bras",
+      "Améliore la définition musculaire des bras",
+      "Améliore la force de préhension"
+    ],
+    "steps": [
+      {
+        "step": "Tenez une paire d'haltères avec une prise en neutre, les mains à la largeur des épaules et les bras tendus vers le bas."
+      },
+      {
+        "step": "Gardez vos coudes collés contre vos côtés et vos poignets droits."
+      },
+      {
+        "step": "Soulevez lentement les haltères en contractant les biceps jusqu'à ce que les mains soient à la hauteur des épaules."
+      },
+      {
+        "step": "Maintenez la position pendant une seconde, puis abaissez lentement les haltères en revenant à la position de départ."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas balancer les haltères pour obtenir de l'élan, ce qui peut limiter l'efficacité de l'exercice."
+      },
+      {
+        "mistake": "Ne pas utiliser une amplitude de mouvement complète, ce qui peut limiter l'efficacité de l'exercice."
+      },
+      {
+        "mistake": "Ne pas maintenir une posture correcte pendant l'exercice, ce qui peut entraîner des douleurs et des blessures au dos."
+      }
+    ]
+  },
+  {
+    "type": "biceps",
+    "title": "Curl concentré",
+    "description": "Le curl concentré est un exercice de musculation qui cible principalement les biceps en travaillant l'isolation musculaire.",
+    "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2022/07/Muscles-Curl-Concentre.001.jpeg?resize=1080%2C675&ssl=1",
+    "benefits": [
+      "Renforce les biceps",
+      "Améliore la définition musculaire des bras",
+      "Améliore la force de préhension"
+    ],
+    "steps": [
+      {
+        "step": "Asseyez-vous sur un banc avec les jambes écartées et les pieds bien ancrés au sol."
+      },
+      {
+        "step": "Tenez un haltère dans une main et placez votre coude sur l'intérieur de votre cuisse de la même jambe."
+      },
+      {
+        "step": "Penchez-vous en avant et laissez le bras qui tient l'haltère pendre entre vos jambes."
+      },
+      {
+        "step": "Soulevez lentement l'haltère en contractant le biceps jusqu'à ce que votre avant-bras soit presque vertical."
+      },
+      {
+        "step": "Maintenez la position pendant une seconde, puis abaissez lentement l'haltère en revenant à la position de départ."
+      },
+      {
+        "step": "Répétez pour le nombre de répétitions souhaité, puis changez de bras."
+      }
+    ],
+    "mistakes": [
+      {
+        "mistake": "Ne pas balancer le corps pour obtenir de l'élan, ce qui peut limiter l'efficacité de l'exercice."
+      },
+      {
+        "mistake": "Ne pas utiliser une amplitude de mouvement complète, ce qui peut limiter l'efficacité de l'exercice."
+      },
+      {
+        "mistake": "Ne pas maintenir une posture correcte pendant l'exercice, ce qui peut entraîner des douleurs et des blessures au dos."
+      }
+    ]
+  },{
+  "type": "épaules",
+  "title": "Développé militaire",
+  "description": "Le développé militaire est un exercice de musculation qui cible principalement les épaules en travaillant les deltoïdes et les trapèzes.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2022/03/Muscles-DM-Halteres.001.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les épaules",
+    "Améliore la stabilité de l'épaule",
+    "Améliore la posture"
+  ],
+  "steps": [
+    {
+      "step": "Asseyez-vous sur un banc avec un dossier vertical et placez la barre sur les épaules, les mains légèrement plus larges que la largeur des épaules."
+    },
+    {
+      "step": "Levez la barre en appuyant vos épaules vers le haut jusqu'à ce que les bras soient presque tendus."
+    },
+    {
+      "step": "Abaissez lentement la barre en la ramenant vers les épaules."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas se balancer ou se pencher en arrière pour utiliser la force de son corps plutôt que de ses épaules."
+    },
+    {
+      "mistake": "Ne pas verrouiller les coudes en haut du mouvement pour éviter une tension excessive sur les articulations."
+    },
+    {
+      "mistake": "Ne pas utiliser une charge trop lourde, ce qui peut entraîner des douleurs et des blessures aux épaules."
+    }
+  ]
+},{
+  "type": "épaules",
+  "title": "Élévation latérale",
+  "description": "L'élévation latérale est un exercice de musculation qui cible principalement les deltoïdes, les muscles situés sur le haut de l'épaule.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2022/04/Muscles-elevations-laterales.001.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les épaules",
+    "Améliore la stabilité de l'épaule",
+    "Améliore la posture"
+  ],
+  "steps": [
+    {
+      "step": "Tenez une paire d'haltères à vos côtés, les paumes face à vos cuisses."
+    },
+    {
+      "step": "Soulevez lentement les haltères sur les côtés en gardant les bras légèrement fléchis jusqu'à ce qu'ils soient parallèles au sol."
+    },
+    {
+      "step": "Maintenez la position pendant une seconde, puis abaissez lentement les haltères à la position de départ."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas balancer les haltères en les soulevant, cela ne travaille pas les épaules de manière efficace."
+    },
+    {
+      "mistake": "Ne pas soulever les haltères trop haut, cela peut causer des tensions ou des douleurs dans les épaules."
+    },
+    {
+      "mistake": "Ne pas utiliser une charge trop lourde, ce qui peut entraîner des douleurs et des blessures aux épaules."
+    }
+  ]
+},{
+  "type":"epaules",
+  "title": "Développé militaire debout avec haltères",
+  "description": "Le développé militaire debout avec haltères est un exercice de musculation pour les épaules. Il sollicite principalement le faisceau moyen des deltoïdes, ainsi que les trapèzes et les triceps.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2022/03/Muscles-DM-Halteres.001.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les épaules",
+    "Améliore la posture",
+    "Développe la force et la puissance des épaules",
+    "Stimule la croissance musculaire"
+  ],
+  "steps": [
+    {
+      "step": "Tenez une paire d'haltères à hauteur d'épaules, les paumes de vos mains tournées vers l'avant."
+    },
+    {
+      "step": "Tenez vos coudes près de votre corps et vos épaules basses."
+    },
+    {
+      "step": "Soulevez les haltères vers le haut, en gardant vos coudes et vos poignets alignés avec vos épaules."
+    },
+    {
+      "step": "Poussez les haltères au-dessus de votre tête en les rapprochant légèrement, puis abaissez-les lentement à la position de départ."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas utiliser une charge trop lourde qui pourrait causer une blessure."
+    },
+    {
+      "mistake": "Ne pas se pencher en arrière ou se cambrer pour soulever les haltères."
+    },
+    {
+      "mistake": "Ne pas utiliser une impulsion pour soulever les haltères, utilisez uniquement la force de vos épaules."
+    }
+  ]
+},{
+  "type": "triceps",
+  "title": "Dips sur chaise",
+  "description": "Les dips sur chaise sont un exercice de musculation simple mais efficace pour travailler les triceps, les épaules et les muscles du torse.",
+  "img": "https://i0.wp.com/muscu-street-et-crossfit.fr/wp-content/uploads/2021/10/Muscles-Dips.001.jpeg?resize=1080%2C675&ssl=1",
+  "benefits": [
+    "Renforce les triceps",
+    "Améliore la stabilité des épaules",
+    "Travaille les muscles du torse"
+  ],
+  "steps": [
+    {
+      "step": "Placez une chaise derrière vous et tenez-vous en face, en posant vos mains sur le bord de la chaise."
+    },
+    {
+      "step": "Pliez les coudes pour descendre votre corps vers le sol, en gardant les épaules en arrière et les coudes près du corps."
+    },
+    {
+      "step": "Descendez jusqu'à ce que vos bras forment un angle de 90 degrés."
+    },
+    {
+      "step": "Poussez votre corps vers le haut jusqu'à ce que vos bras soient tendus."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas se balancer ou utiliser la force de son corps plutôt que les muscles des triceps."
+    },
+    {
+      "mistake": "Ne pas descendre trop bas, car cela peut causer une tension excessive sur les épaules ou les coudes."
+    },
+    {
+      "mistake": "Ne pas utiliser une chaise instable ou glissante."
+    }
+  ]
+},{
+  "type": "triceps",
+  "title": "Extensions triceps à la poulie haute",
+  "description": "Les extensions triceps à la poulie haute sont un excellent exercice pour cibler les triceps et renforcer les bras.",
+  "img": "https://julienquaglierini.com/wp-content/uploads/2017/10/extension-triceps-poulie-haute-600x338.jpg.webp",
+  "benefits": [
+    "Développe la force et la masse musculaire des triceps",
+    "Améliore la stabilité des épaules et des coudes",
+    "Améliore la flexibilité des bras"
+  ],
+  "steps": [
+    {
+      "step": "Réglez la poulie à la hauteur de votre tête."
+    },
+    {
+      "step": "Tenez la corde ou la barre avec les mains en pronation, les mains écartées de la largeur des épaules."
+    },
+    {
+      "step": "Tenez-vous droit avec les bras tendus au-dessus de votre tête."
+    },
+    {
+      "step": "Abaissez la corde ou la barre derrière votre tête en pliant les coudes."
+    },
+    {
+      "step": "Gardez vos coudes serrés contre vos oreilles et étirez complètement vos bras pour revenir à la position de départ."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas balancer le corps pour soulever la corde ou la barre."
+    },
+    {
+      "mistake": "Ne pas étendre complètement les bras à la fin du mouvement."
+    },
+    {
+      "mistake": "Ne pas plier les coudes pendant l'extension pour éviter une tension excessive sur les coudes."
+    }
+  ]
+},{ "type":"triceps",
+  "title": "Dips entre deux bancs",
+  "description": "Les dips entre deux bancs sont un exercice de musculation qui cible principalement les triceps, mais sollicite également les épaules et les pectoraux.",
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGNaOLd2akO0rlgM2aIls0IFvZCwOB6bfTOXG6rlQi9A&s",
+  "benefits": [
+    "Renforce les triceps",
+    "Améliore la force de poussée",
+    "Sollicite les muscles des épaules et des pectoraux"
+  ],
+  "steps": [
+    {
+      "step": "Placez deux bancs parallèles et écartez-les d'environ la largeur de vos épaules."
+    },
+    {
+      "step": "Placez vos mains sur les bords des bancs, les doigts vers l'avant et les paumes vers le bas."
+    },
+    {
+      "step": "Tendez les jambes devant vous et éloignez-vous légèrement des bancs."
+    },
+    {
+      "step": "Abaissez votre corps en pliant les coudes jusqu'à ce que vos bras soient presque parallèles au sol."
+    },
+    {
+      "step": "Poussez avec vos triceps pour remonter à la position de départ."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas fléchir les coudes suffisamment pour solliciter les triceps."
+    },
+    {
+      "mistake": "Ne pas garder les épaules en arrière et la poitrine ouverte."
+    },
+    {
+      "mistake": "Ne pas utiliser une largeur de prise qui convient à la morphologie de votre corps."
+    }
+  ]
+},{
+  "type": "abdos",
+  "title": "Crunch abdominal",
+  "description": "Le crunch abdominal est un exercice classique de musculation qui cible principalement les muscles abdominaux droits.",
+  "img": "https://st2.depositphotos.com/8546304/11394/i/950/depositphotos_113940900-stock-photo-abdominal-crunch-in-ab-machine.jpg",
+  "benefits": [
+    "Renforce les muscles abdominaux",
+    "Améliore la stabilité du tronc",
+    "Peut aider à améliorer la posture"
+  ],
+  "steps": [
+    {
+      "step": "Allongez-vous sur le dos avec les genoux fléchis et les pieds posés au sol."
+    },
+    {
+      "step": "Placez vos mains derrière votre tête avec les coudes légèrement écartés."
+    },
+    {
+      "step": "Contractez vos abdominaux et soulevez votre torse jusqu'à ce que vos épaules quittent le sol."
+    },
+    {
+      "step": "Maintenez la contraction pendant une seconde, puis revenez lentement à la position de départ."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas tirer sur votre cou avec vos mains. Utilisez plutôt vos muscles abdominaux pour soulever votre torse."
+    },
+    {
+      "mistake": "Ne pas aller trop haut, car cela peut entraîner une tension excessive sur votre cou et votre dos."
+    },
+    {
+      "mistake": "Ne pas balancer vos jambes ou vos bras pour vous aider à soulever votre torse."
+    }
+  ]
+},{ "type":"abdos",
+  "title": "Crunch inversé sur banc incliné",
+  "description": "Le crunch inversé sur banc incliné est un exercice de musculation qui cible principalement les muscles abdominaux inférieurs.",
+  "img": "https://thumbs.dreamstime.com/z/s-exercer-craquement-inverse-de-baisse-66802781.jpg",
+  "benefits": [
+    "Renforce les muscles abdominaux inférieurs",
+    "Améliore la stabilité du tronc",
+    "Soulage la pression sur le bas du dos",
+    "Améliore la flexibilité des hanches"
+  ],
+  "steps": [
+    {
+      "step": "Allongez-vous sur un banc incliné, la tête vers le bas et les jambes tenues au-dessus de votre tête par un partenaire ou en les accrochant sur une barre."
+    },
+    {
+      "step": "Placez vos mains derrière votre tête ou sur votre poitrine."
+    },
+    {
+      "step": "Contractez vos abdominaux et soulevez votre torse en direction de vos jambes, en expirant."
+    },
+    {
+      "step": "Maintenez la contraction pendant une seconde, puis redescendez lentement en inspirant."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas tirer sur la nuque avec les mains. Les mains doivent simplement soutenir la tête."
+    },
+    {
+      "mistake": "Ne pas faire rebondir votre corps en bas. Les mouvements doivent être lents et contrôlés."
+    },
+    {
+      "mistake": "Ne pas arrondir le dos pendant l'exercice. Maintenez une posture droite."
+    }
+  ]
+},{
+  "type": "abdos",
+  "title": "Crunch",
+  "description": "Le crunch est un exercice d'abdominaux classique qui cible principalement les muscles de la partie supérieure de la paroi abdominale.",
+  "img": "data:image/jpeg;base64,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",
+  "benefits": [
+    "Renforce les muscles abdominaux",
+    "Améliore la stabilité de la colonne vertébrale",
+    "Améliore la posture"
+  ],
+  "steps": [
+    {
+      "step": "Allongez-vous sur le dos, les genoux pliés et les pieds bien ancrés au sol."
+    },
+    {
+      "step": "Placez vos mains derrière votre tête, en gardant les coudes ouverts sur les côtés."
+    },
+    {
+      "step": "Contractez vos abdominaux et soulevez vos épaules du sol, en maintenant la tête et le cou alignés avec votre colonne vertébrale."
+    },
+    {
+      "step": "Maintenez la position pendant une seconde, puis abaissez lentement votre dos au sol."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas tirer sur la nuque avec les mains pour aider à soulever le corps."
+    },
+    {
+      "mistake": "Ne pas balancer le corps pour gagner de l'élan."
+    },
+    {
+      "mistake": "Ne pas forcer sur les muscles du cou ou des épaules, mais plutôt se concentrer sur la contraction des abdominaux."
+    }
+  ]
+},{
+  "type": "mollet",
+  "title": "Levé de mollets debout",
+  "description": "Le levé de mollets debout est un exercice qui cible principalement les muscles du mollet, notamment le muscle soléaire et le muscle gastrocnémien.",
+  "img": "data:image/jpeg;base64,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",
+  "benefits": [
+    "Renforce les muscles du mollet",
+    "Améliore la stabilité de la cheville",
+    "Améliore la circulation sanguine dans les jambes"
+  ],
+  "steps": [
+    {
+      "step": "Placez-vous debout sur une surface surélevée telle qu'un step ou un bord d'une marche d'escalier."
+    },
+    {
+      "step": "Positionnez vos pieds de manière à ce que la partie avant de vos pieds (la partie la plus proche de vos orteils) repose sur la surface surélevée, tandis que vos talons pendent dans le vide."
+    },
+    {
+      "step": "Maintenez vos bras le long de votre corps ou placez vos mains sur vos hanches pour plus de stabilité."
+    },
+    {
+      "step": "Levez vos talons autant que possible en contractant vos mollets."
+    },
+    {
+      "step": "Maintenez la position pendant une seconde, puis redescendez lentement vos talons à la position de départ."
+    },
+    {
+      "step": "Répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas se tenir droit et maintenir une posture correcte pendant l'exercice."
+    },
+    {
+      "mistake": "Ne pas se tenir sur la surface surélevée de manière stable. Il est important de garder l'équilibre pour éviter de tomber."
+    },
+    {
+      "mistake": "Ne pas utiliser la force de gravité pour descendre les talons. Descendez lentement pour contrôler le mouvement et éviter les blessures."
+    }
+  ]
+},{
+  "type": "mollet",
+  "title": "Sauts de mollet",
+  "description": "Les sauts de mollet sont un exercice cardiovasculaire efficace qui renforce également les muscles des mollets.",
+  "img": "https://julienquaglierini.com/wp-content/uploads/2017/10/mollet-debout-768x432.jpg.webp",
+  "benefits": [
+    "Renforce les muscles des mollets",
+    "Améliore l'endurance et la puissance des jambes",
+    "Augmente la fréquence cardiaque",
+    "Améliore la coordination et l'équilibre"
+  ],
+  "steps": [
+    {
+      "step": "Placez-vous debout, les pieds écartés de la largeur des épaules."
+    },
+    {
+      "step": "Fléchissez légèrement les genoux, puis sautez en l'air en utilisant la force de vos mollets."
+    },
+    {
+      "step": "Atterrissez sur la pointe des pieds et fléchissez légèrement les genoux pour absorber l'impact."
+    },
+    {
+      "step": "Rebondissez immédiatement et répétez pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas fléchir les genoux avant de sauter, ce qui peut entraîner une pression excessive sur les chevilles et les genoux."
+    },
+    {
+      "mistake": "Ne pas atterrir sur la pointe des pieds, ce qui peut entraîner une pression excessive sur les talons et les genoux."
+    },
+    {
+      "mistake": "Ne pas garder les abdominaux et les fessiers engagés pour stabiliser le corps pendant l'exercice."
+    }
+  ]
+},{
+  "type": "mollet",
+  "title": "Sauts de grenouille",
+  "description": "Les sauts de grenouille sont un exercice de musculation qui sollicitent les muscles des mollets, mais également les cuisses, les fessiers et les abdominaux.",
+  "img": "data:image/jpeg;base64,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",
+  "benefits": [
+    "Renforce les muscles des mollets",
+    "Améliore la puissance et l'explosivité",
+    "Sollicite les cuisses, les fessiers et les abdominaux"
+  ],
+  "steps": [
+    {
+      "step": "Commencez en position debout, les pieds écartés à la largeur des épaules."
+    },
+    {
+      "step": "Fléchissez les jambes pour vous mettre en position de squat, en gardant le dos droit et la poitrine ouverte."
+    },
+    {
+      "step": "Puis, en gardant cette position, sautez vers l'avant en poussant avec les jambes."
+    },
+    {
+      "step": "Atterrissez en douceur sur la pointe des pieds, puis revenez en position de squat."
+    },
+    {
+      "step": "Répétez le mouvement pour le nombre de répétitions souhaité."
+    }
+  ],
+  "mistakes": [
+    {
+      "mistake": "Ne pas fléchir suffisamment les jambes en position de squat."
+    },
+    {
+      "mistake": "Ne pas garder le dos droit et la poitrine ouverte pendant le mouvement."
+    },
+    {
+      "mistake": "Ne pas atterrir en douceur sur la pointe des pieds, ce qui peut provoquer des douleurs aux genoux."
+    }
+  ]
+}
+]

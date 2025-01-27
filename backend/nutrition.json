@@ -1,0 +1,739 @@
+[
+  {
+    "title": "Truite grillée aux légumes",
+    "type" : "meal",
+    "description": "Une délicieuse recette de truite grillée accompagnée de légumes grillés pour les sportifs",
+    "img": "https://thumbs.dreamstime.com/b/truite-grill%C3%A9e-110525004.jpg",
+    "video_url": "https://example.com/videos/truite-grillee.mp4",
+    "ingredients": [
+      {
+        "name": "Truite,2 filetsfilets de truite frais"
+      },
+      {
+        "name": "Poivron,1,poivron rouge coupé en dés"
+      },
+      {
+        "name": "Courgette,1,courgette coupée en rondelles"
+      },
+      {
+        "name": "Oignon,1,oignon rouge coupé en quartiers"
+      },
+      {
+        "name": "Huile d'olive,2 cuillères à soupe"
+      },
+      {
+        "name": "Ail,2 gousses,ail haché finement"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café"
+      },
+      {
+        "name": "Poivre,1/2 cuillère à café"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Préchauffez le gril à feu moyen-élevé."
+      },
+      {
+        "description": "Assaisonnez les filets de truite avec du sel et du poivre."
+      },
+      {
+        "description": "Dans un bol, mélangez l'huile d'olive et l'ail. Badigeonnez les légumes avec ce mélange."
+      },
+      {
+        "description": "Placez les filets de truite sur le gril et faites cuire pendant environ 5 à 6 minutes de chaque côté, jusqu'à ce qu'ils soient bien grillés."
+      },
+      {
+        "description": "Pendant ce temps, placez les légumes sur le gril et faites-les cuire pendant environ 10 minutes, jusqu'à ce qu'ils soient tendres."
+      },
+      {
+        "description": "Servez la truite grillée avec les légumes grillés."
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 370},
+      {"protein": 38},
+      {"carbohydrates": 12},
+      {"fat": 20 }
+    ]
+  },
+  {
+    "title": "Saumon grillé avec asperges et riz brun",
+    "type" : "meal",
+    "description": "Cette recette de saumon grillé est non seulement délicieuse, mais elle est également riche en protéines et en nutriments essentiels pour les sportifs. Elle est également facile à préparer et peut être servie en un rien de temps.",
+    "img": "https://media.istockphoto.com/id/1385985236/fr/photo/filets-de-saumon-steaks-grill%C3%A9s-en-po%C3%AAle-aux-herbes-fond-blanc-vue-de-dessus.jpg?s=612x612&w=0&k=20&c=6hMVv9FPcMo8PLHP_OJdoHxLco_yiFcMrIuNtqSGSWM=",
+    "video_url": "https://example.com/videos/salmon-grilled.mp4",
+    "ingredients": [
+      {
+        "name": "Saumon,150g.Frais, sans peau et sans arêtes"
+      },
+      {
+        "name": "Asperges,100g.Fraîches et coupées en morceaux de taille similaire"
+      },
+      {
+        "name": "Riz brun,50g.Cuit selon les instructions sur l'emballage"
+      },
+      {
+        "name": "Huile d'olive,1 cuillère à soupe.Pour la cuisson"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Poivre noir,1/4 cuillère à café.Pour assaisonner"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Assaisonner le saumon avec du sel et du poivre noir"
+      },
+      {
+        "description": "Faire chauffer l'huile d'olive dans une poêle à feu moyen-vif"
+      },
+      {
+        "description": "Ajouter le saumon et faire cuire pendant 4-5 minutes de chaque côté, jusqu'à ce qu'il soit cuit"
+      },
+      {
+        "description": "Pendant ce temps, faire cuire les asperges dans de l'eau bouillante pendant environ 3-4 minutes, jusqu'à ce qu'elles soient tendres mais croquantes"
+      },
+      {
+        "description": "Servir le saumon grillé avec les asperges et le riz brun chaud"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 350},
+      {"protein": 30},
+      {"carbohydrates": 30 },
+      {"fat": 12 }
+    ]
+  },
+  {
+    "title": "Salade de thon pour les sportifs",
+    "type" : "meal",
+    "description": "Cette salade de thon est une option délicieuse et nutritive pour les sportifs. Le thon est riche en protéines, faible en matières grasses et riche en acides gras oméga-3. Cette salade est également riche en légumes et en fibres.",
+    "img": "https://media.istockphoto.com/id/1350379341/fr/photo/salade-de-thon-aux-tomates-et-avocat.webp?s=1024x1024&w=is&k=20&c=dJDXE-8ti8Vx7DX2vDVc6xMyBA-DhaD6nDOmhj25Wfc=",
+    "video_url": "https://example.com/videos/recipe-123.mp4",
+    "ingredients": [
+      {
+        "name": "thon en conserve,1 boîte,égoutté et émietté"
+      },
+      {
+        "name": "laitue,2 tasses,coupée en morceaux"
+      },
+      {
+        "name": "concombre,1,tranché"
+      },
+      {
+        "name": "poivron rouge,1/2,coupé en morceaux"
+      },
+      {
+        "name": "oignon rouge,1/4,coupé en morceaux"
+      },
+      {
+        "name": "vinaigrette,2 cuillères à soupe,de vinaigrette légère au choix"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans un grand bol, mélanger la laitue, le concombre, le poivron rouge et l'oignon rouge."
+      },
+      {
+        "description": "Ajouter le thon émietté et mélanger doucement."
+      },
+      {
+        "description": "Verser la vinaigrette sur la salade et mélanger à nouveau."
+      },
+      {
+        "description": "Servir immédiatement ou réfrigérer jusqu'au moment de servir."
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 250 },
+      {"protein": 30 },
+      {"carbohydrates": 10 },
+      {"fat": 10 },
+      {"fiber": 5 }
+    ]
+  },
+  {
+    "title": "Poulet grillé avec légumes verts",
+    "type" : "meal",
+    "description": "Cette recette de poulet grillé est une option saine et protéinée pour les sportifs. Les légumes verts ajoutent des nutriments et de la couleur, et la marinade donne un goût délicieux.",
+    "img": "https://cdn.pixabay.com/photo/2016/08/30/18/45/grilled-1631727_1280.jpg",
+    "video_url": "https://example.com/videos/grilled-chicken.mp4",
+    "ingredients": [
+      {
+        "name": "Poitrine de poulet,150g.Désossée et sans peau"
+      },
+      {
+        "name": "Brocoli,100g.Frais et coupé en petits morceaux"
+      },
+      {
+        "name": "Asperges,100g.Fraîches et coupées en morceaux de taille similaire"
+      },
+      {
+        "name": "Huile d'olive,1 cuillère à soupe.Pour la marinade et la cuisson"
+      },
+      {
+        "name": "Jus de citron,1 cuillère à soupe.Pour la marinade"
+      },
+      {
+        "name": "Ail,1 gousse.Haché pour la marinade"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Poivre noir,1/4 cuillère à café.Pour assaisonner"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans un bol, mélanger l'huile d'olive, le jus de citron, l'ail, le sel et le poivre pour faire la marinade"
+      },
+      {
+        "description": "Ajouter les morceaux de poulet dans la marinade et mélanger pour bien enrober. Réfrigérer pendant au moins 30 minutes"
+      },
+      {
+        "description": "Faire chauffer une poêle à feu moyen-vif et y ajouter le poulet. Faire cuire pendant environ 5-6 minutes de chaque côté, jusqu'à ce qu'il soit bien cuit"
+      },
+      {
+        "description": "Pendant ce temps, faire cuire les brocolis et les asperges dans de l'eau bouillante pendant environ 3-4 minutes, jusqu'à ce qu'ils soient tendres mais croquants"
+      },
+      {
+        "description": "Servir le poulet grillé avec les légumes verts chauds"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 300 },
+      {"protein": 35 },
+      {"carbohydrates": 10 },
+      {"fat": 13 }
+    ]
+  },
+  {
+    "title": "Salade de poulet",
+    "type" : "meal",
+    "description": "Cette salade de poulet est une option saine et protéinée pour les amateurs de salades. Les légumes ajoutent des nutriments et de la couleur, et le poulet grillé donne un goût délicieux.",
+    "img": "https://cdn.pixabay.com/photo/2015/05/31/12/58/spinach-791629_640.jpg",
+    "ingredients": [
+      {
+        "name": "Poitrine de poulet,150g.Désossée et sans peau, grillée et coupée en dés"
+      },
+      {
+        "name": "Laitue,100g.Frais et coupé en morceaux"
+      },
+      {
+        "name": "Tomates cerises,100g.Frais et coupées en deux"
+      },
+      {
+        "name": "Concombre,1/2.Frais et coupé en dés"
+      },
+      {
+        "name": "Poivron rouge,1/2.Frais et coupé en dés"
+      },
+      {
+        "name": "Vinaigrette,2 cuillères à soupe.Au choix, pour assaisonner"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Faire griller la poitrine de poulet sur une poêle à feu moyen-vif jusqu'à ce qu'elle soit bien cuite. Laisser refroidir puis couper en dés"
+      },
+      {
+        "description": "Dans un grand bol, mélanger la laitue, les tomates cerises, le concombre et le poivron rouge coupés en dés"
+      },
+      {
+        "description": "Ajouter les dés de poulet grillé dans le bol et mélanger avec les légumes"
+      },
+      {
+        "description": "Assaisonner avec la vinaigrette au choix et servir frais"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 250 },
+      {"protein": 30 },
+      {"carbohydrates": 10 },
+      {"fat": 10 }
+    ]
+  },
+  {
+    "title": "Poulet au curry",
+    "type" : "meal",
+    "description": "Ce poulet au curry épicé est un plat délicieux et facile à préparer. Il est parfait pour les dîners rapides en semaine ou les soirées entre amis.",
+    "img": "https://cdn.pixabay.com/photo/2016/03/05/21/42/appetite-1239048_640.jpg",
+    "video_url": "https://example.com/videos/curry-chicken.mp4",
+    "ingredients": [
+      {
+        "name": "Poitrine de poulet,500g.Désossée et coupée en morceaux"
+      },
+      {
+        "name": "Lait de coco,400ml.Non sucré"
+      },
+      {
+        "name": "Oignon,1 moyen.Coupé en dés"
+      },
+      {
+        "name": "Ail,4 gousses.Haché finement"
+      },
+      {
+        "name": "Gingembre frais,1 pouce.Pelé et haché finement"
+      },
+      {
+        "name": "Pâte de curry rouge,2 cuillères à soupe.Disponible dans les épiceries asiatiques"
+      },
+      {
+        "name": "Huile végétale,2 cuillères à soupe.Pour la cuisson"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Coriandre fraîche.Pour garnir.Hachée grossièrement"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans une grande poêle, faire chauffer l'huile à feu moyen-vif. Ajouter l'oignon, l'ail et le gingembre et faire sauter pendant environ 2-3 minutes, jusqu'à ce que l'oignon soit tendre."
+      },
+      {
+        "description": "Ajouter la pâte de curry rouge et faire sauter pendant environ 1 minute, jusqu'à ce qu'elle soit bien mélangée avec les légumes."
+      },
+      {
+        "description": "Ajouter le poulet et faire cuire pendant environ 5-6 minutes, jusqu'à ce qu'il soit doré de tous les côtés."
+      },
+      {
+        "description": "Verser le lait de coco dans la poêle et porter à ébullition. Réduire le feu et laisser mijoter pendant environ 10-15 minutes, jusqu'à ce que la sauce épaississe et que le poulet soit bien cuit."
+      },
+      {
+        "description": "Servir chaud garni de coriandre fraîche."
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 450  },
+      {"protein": 30 },
+      {"carbohydrates": 12 },
+      {"fat": 32 }
+    ]
+  },
+  {
+    "title": "Steak de boeuf grillé",
+    "type" : "meal",
+    "description": "Cette recette de steak de boeuf grillé est une option savoureuse et riche en protéines pour les amateurs de viande. Servez-le avec des légumes verts pour un repas équilibré.",
+    "img": "https://cdn.pixabay.com/photo/2017/04/30/09/30/steak-2272467_640.jpg",
+    "video_url": "https://example.com/videos/grilled-steak.mp4",
+    "ingredients": [
+      {
+        "name": "Steak de boeuf,200g.De préférence un steak de surlonge ou de contre-filet"
+      },
+      {
+        "name": "Brocoli,100g.Frais et coupé en petits morceaux"
+      },
+      {
+        "name": "Asperges,100g.Fraîches et coupées en morceaux de taille similaire"
+      },
+      {
+        "name": "Huile d'olive,1 cuillère à soupe.Pour la marinade et la cuisson"
+      },
+      {
+        "name": "Jus de citron,1 cuillère à soupe.Pour la marinade"
+      },
+      {
+        "name": "Ail,1 gousse.Haché pour la marinade"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Poivre noir,1/4 cuillère à café.Pour assaisonner"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans un bol, mélanger l'huile d'olive, le jus de citron, l'ail, le sel et le poivre pour faire la marinade"
+      },
+      {
+        "description": "Ajouter le steak dans la marinade et mélanger pour bien enrober. Réfrigérer pendant au moins 30 minutes"
+      },
+      {
+        "description": "Préchauffer le grill à feu moyen-vif. Faire griller le steak pendant environ 3-4 minutes de chaque côté pour une cuisson saignante, ou plus longtemps pour une cuisson à point ou bien cuite."
+      },
+      {
+        "description": "Pendant ce temps, faire cuire les brocolis et les asperges dans de l'eau bouillante pendant environ 3-4 minutes, jusqu'à ce qu'ils soient tendres mais croquants"
+      },
+      {
+        "description": "Servir le steak grillé avec les légumes verts chauds"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 400},
+      {"protein": 40 },
+      {"carbohydrates": 5 },
+      {"fat": 25}
+    ]
+  },
+  {
+    "title": "Riz à la viande hachée",
+    "type" : "meal",
+    "description": "Une recette facile et savoureuse pour un repas complet. Le riz est accompagné de viande hachée et de légumes pour un plat équilibré et délicieux.",
+    "img": "https://cdn.pixabay.com/photo/2022/05/16/18/56/rice-7200984_640.jpg",
+    "video_url": "https://example.com/videos/beef-rice.mp4",
+    "ingredients": [
+      {
+        "name": "Riz,1 tasse.Rinçé et égoutté"
+      },
+      {
+        "name": "Viande hachée,250g.De boeuf ou de porc"
+      },
+      {
+        "name": "Oignon,1.Haché finement"
+      },
+      {
+        "name": "Carottes,2.Pelées et coupées en petits dés"
+      },
+      {
+        "name": "Poivron rouge,1.Coupé en petits dés"
+      },
+      {
+        "name": "Ail,2 gousses.Haché finement"
+      },
+      {
+        "name": "Huile végétale,1 cuillère à soupe.Pour la cuisson"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Poivre noir,1/4 cuillère à café.Pour assaisonner"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Faire cuire le riz selon les instructions sur l'emballage et mettre de côté"
+      },
+      {
+        "description": "Dans une poêle à feu moyen, faire chauffer l'huile et ajouter l'oignon et l'ail. Faire cuire pendant environ 2 minutes, jusqu'à ce qu'ils soient tendres"
+      },
+      {
+        "description": "Ajouter la viande hachée dans la poêle et faire cuire pendant environ 5 minutes, en remuant régulièrement, jusqu'à ce qu'elle soit bien cuite"
+      },
+      {
+        "description": "Ajouter les carottes et le poivron rouge dans la poêle et faire cuire pendant environ 5 minutes, jusqu'à ce qu'ils soient tendres mais croquants"
+      },
+      {
+        "description": "Incorporer le riz cuit dans la poêle et mélanger pour bien combiner les ingrédients. Assaisonner avec du sel et du poivre selon votre goût"
+      },
+      {
+        "description": "Servir chaud et garnir de persil frais si désiré"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 450 },
+      {"protein": 20},
+      {"carbohydrates": 50 },
+      {"fat": 18}
+    ]
+  },
+  {
+    "title": "Pâtes aux légumes grillés",
+    "type" : "meal",
+    "description": "Cette recette de pâtes aux légumes grillés est une option saine et végétarienne. Les légumes grillés ajoutent des saveurs et des textures intéressantes, et la sauce tomate donne une touche savoureuse.",
+    "img": "https://cdn.pixabay.com/photo/2016/11/23/18/31/pasta-1854245_640.jpg",
+    "video_url": "https://example.com/videos/grilled-vegetables-pasta.mp4",
+    "ingredients": [
+      {
+        "name": "Pâtes,150g.De votre choix, cuite al dente"
+      },
+      {
+        "name": "Poivrons,100g.Rouges, jaunes ou verts, coupés en lamelles"
+      },
+      {
+        "name": "Courgettes,100g.Coupées en rondelles"
+      },
+      {
+        "name": "Aubergines,100g.Coupées en cubes"
+      },
+      {
+        "name": "Huile d'olive,2 cuillères à soupe.Pour la marinade et la cuisson"
+      },
+      {
+        "name": "Jus de citron,1 cuillère à soupe.Pour la marinade"
+      },
+      {
+        "name": "Ail,1 gousse.Haché pour la marinade"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Poivre noir,1/4 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Sauce tomate,150g.Nature ou aromatisée selon votre goût"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans un bol, mélanger l'huile d'olive, le jus de citron, l'ail, le sel et le poivre pour faire la marinade"
+      },
+      {
+        "description": "Ajouter les légumes dans la marinade et mélanger pour bien enrober. Réfrigérer pendant au moins 30 minutes"
+      },
+      {
+        "description": "Préchauffer le grill ou la poêle à feu moyen-vif et y faire griller les légumes pendant environ 5-7 minutes, jusqu'à ce qu'ils soient légèrement dorés"
+      },
+      {
+        "description": "Pendant ce temps, faire chauffer la sauce tomate dans une casserole à feu moyen"
+      },
+      {
+        "description": "Ajouter les pâtes cuites dans la casserole avec la sauce tomate et mélanger. Ajouter les légumes grillés et mélanger à nouveau. Servir chaud"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 350},
+      {"protein": 10},
+      {"carbohydrates": 50 },
+      {"fat":3 }
+    ]
+  },
+  {
+    "title": "Jus protéiné aux fruits rouges",
+    "type" : "snack",
+    "description": "Ce jus protéiné est parfait pour une collation post-entraînement. Les fruits rouges ajoutent une touche sucrée, tandis que la protéine en poudre ajoute une dose de protéines pour aider à la récupération musculaire.",
+    "img": "https://cdn.pixabay.com/photo/2017/09/08/05/52/strawberry-2727808_640.jpg",
+    "video_url": "https://example.com/videos/protein-juice.mp4",
+    "ingredients": [
+      {
+        "name": "Fruits rouges surgelés,1 tasse.Mélange de fraises, framboises et bleuets"
+      },
+      {
+        "name": "Lait d'amande,1 tasse.Non sucré"
+      },
+      {
+        "name": "Protéine en poudre,1 scoop.Saveur vanille"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans un mixeur, ajouter les fruits rouges, le lait d'amande et la protéine en poudre"
+      },
+      {
+        "description": "Mixer jusqu'à ce que le tout soit bien mélangé et lisse"
+      },
+      {
+        "description": "Servir immédiatement dans un verre"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 250 },
+      {"protein": 25 },
+      {"carbohydrates": 25},
+      {"fat": 5}
+    ]
+  },
+  {
+    "title": "Jus protéiné aux épinards et bananes",
+    "type" : "snack",
+    "description": "Ce jus protéiné est une option saine pour les sportifs et les amateurs de jus. Les épinards ajoutent des nutriments verts, tandis que les bananes donnent une douceur naturelle.",
+    "img": "https://cdn.pixabay.com/photo/2015/04/19/14/46/smoothie-729923_640.jpg",
+    "video_url": "https://example.com/videos/protein-juice.mp4",
+    "ingredients": [
+      {
+        "name": "Épinards,2 tasses.Frais et lavés"
+      },
+      {
+        "name": "Bananes,2.Mûres et pelées"
+      },
+      {
+        "name": "Poudre de protéine de lactosérum,1 mesure.Vanille ou non aromatisée"
+      },
+      {
+        "name": "Lait d'amande,1 tasse.Non sucré"
+      },
+      {
+        "name": "Beurre d'amande,2 cuillères à soupe.Crémeux et non sucré"
+      },
+      {
+        "name": "Miel,1 cuillère à soupe.Optionnel pour une douceur supplémentaire"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Mettre les épinards, les bananes, la poudre de protéine de lactosérum, le lait d'amande et le beurre d'amande dans un blender"
+      },
+      {
+        "description": "Mélanger jusqu'à obtenir une texture lisse et homogène"
+      },
+      {
+        "description": "Ajouter du miel si désiré et mélanger à nouveau"
+      },
+      {
+        "description": "Servir le jus protéiné immédiatement"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 400},
+      {"protein": 30 },
+      {"carbohydrates": 50 },
+      {"fat": 15}
+    ]
+  },
+  {
+    "title": "Omelette aux légumes",
+    "type" : "breakfast",
+    "description": "Une omelette aux légumes est une option saine et délicieuse pour un petit déjeuner équilibré.",
+    "img": "https://cdn.pixabay.com/photo/2015/11/30/20/03/omelette-1071021_1280.jpg",
+    "video_url": "https://example.com/videos/omelette.mp4",
+    "ingredients": [
+      {
+        "name": "Oeufs,2.Frais"
+      },
+      {
+        "name": "Poivron rouge,1/2.Frais et coupé en petits morceaux"
+      },
+      {
+        "name": "Oignon,1/4.Frais et coupé en petits morceaux"
+      },
+      {
+        "name": "Champignons,3-4.Frais et coupés en tranches"
+      },
+      {
+        "name": "Huile d'olive1 cuillère à soupe.Pour la cuisson"
+      },
+      {
+        "name": "Sel,1/2 cuillère à café.Pour assaisonner"
+      },
+      {
+        "name": "Poivre noir,1/4 cuillère à café.Pour assaisonner"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans un bol, battre les œufs avec le sel et le poivre"
+      },
+      {
+        "description": "Faire chauffer une poêle à feu moyen-vif et y ajouter l'huile d'olive"
+      },
+      {
+        "description": "Ajouter les légumes dans la poêle et faire cuire pendant environ 5-7 minutes, jusqu'à ce qu'ils soient tendres"
+      },
+      {
+        "description": "Verser les œufs battus dans la poêle et laisser cuire pendant environ 2-3 minutes, jusqu'à ce que l'omelette soit bien prise"
+      },
+      {
+        "description": "Retourner l'omelette avec une spatule et faire cuire pendant environ 1-2 minutes de plus, jusqu'à ce que l'autre côté soit doré"
+      },
+      {
+        "description": "Servir chaud avec des tranches de pain grillé"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 250},
+      {"protein": 15},
+      {"carbohydrates": 8},
+      {"fat": 18 }
+    ]
+  },
+  {
+    "title": "Flocons d'avoine avec fruits frais",
+    "type" : "breakfast",
+    "description": "Ce petit-déjeuner sain et nourrissant est parfait pour commencer la journée. Les flocons d'avoine offrent une source de glucides complexes et de fibres, tandis que les fruits frais apportent des vitamines et des antioxydants.",
+    "img": "https://cdn.pixabay.com/photo/2016/11/21/15/53/berries-1846085_1280.jpg",
+    "video_url": "https://example.com/videos/oatmeal.mp4",
+    "ingredients": [
+      {
+        "name": "Flocons d'avoine,50g.Bio et sans gluten"
+      },
+      {
+        "name": "Lait d'amande,250ml.Non sucré"
+      },
+      {
+        "name": "Banane,1.Mûre et coupée en rondelles"
+      },
+      {
+        "name": "Myrtilles,50g.Frais ou congelés"
+      },
+      {
+        "name": "Noix de cajou,15g.Non salées et concassées"
+      },
+      {
+        "name": "Sirop d'érable,1 cuillère à soupe.Facultatif pour sucrer"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans une casserole, mélanger les flocons d'avoine et le lait d'amande. Porter à ébullition et réduire le feu à moyen. Cuire pendant environ 5-7 minutes, en remuant de temps en temps, jusqu'à ce que le mélange épaississe."
+      },
+      {
+        "description": "Ajouter les rondelles de banane et les myrtilles dans la casserole et mélanger délicatement. Laisser cuire pendant encore 1-2 minutes, jusqu'à ce que les fruits soient chauds."
+      },
+      {
+        "description": "Répartir le mélange d'avoine dans deux bols. Garnir de noix de cajou concassées et de sirop d'érable (facultatif)."
+      },
+      {
+        "description": "Servir chaud et déguster!"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 350},
+      {"protein": 8 },
+      {"carbohydrates": 50},
+      {"fat": 14}
+    ]
+  },
+  {
+    "title": "Bol de yaourt aux fruits et noix",
+    "type" : "breakfast",
+    "description": "Ce bol de yaourt est une option saine et délicieuse pour un petit déjeuner sans œufs. Les fruits et les noix ajoutent des nutriments et de la texture, tandis que le yaourt fournit une dose de protéines.",
+    "img": "https://cdn.pixabay.com/photo/2015/11/11/21/49/yogurt-1039309_640.jpg",
+    "ingredients": [
+      {
+        "name": "Yaourt grec,200g.Nature et sans sucre ajouté"
+      },
+      {
+        "name": "Banane,1.Mûre et coupée en rondelles"
+      },
+      {
+        "name": "Fraises,100g.Fraîches et coupées en morceaux"
+      },
+      {
+        "name": "Myrtilles,50g,fraîches"
+      },
+      {
+        "name": "Noix,30g.Mélangées, non salées et non grillées"
+      },
+      {
+        "name": "Miel 1 cuillère à soupe.Pour sucrer (facultatif)"
+      },
+      {
+        "name": "Cannelle,1/2 cuillère.Pour assaisonner (facultatif)"
+      }
+    ],
+    "stages": [
+      {
+        "description": "Dans un bol, mettre le yaourt grec"
+      },
+      {
+        "description": "Ajouter les fruits coupés sur le yaourt"
+      },
+      {
+        "description": "Parsemer de noix sur le dessus"
+      },
+      {
+        "description": "Si désiré, ajouter du miel et de la cannelle pour sucrer et assaisonner le bol de yaourt"
+      }
+    ],
+    "nutrition_values": [
+      {"calories": 350},
+      {"protein": 20},
+      { "carbohydrates": 50},
+      {"fat": 10 }
+    ]
+  }
+]
+
+
+
+
+

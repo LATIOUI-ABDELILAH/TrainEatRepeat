@@ -1,0 +1,151 @@
+
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.108.0">
+  <title>Navbar Template · Bootstrap v5.3</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+
+    /* Custom Styles */
+    .navbar-custom {
+      background-color: black;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      padding: 1rem;
+    }
+
+    .navbar-custom .navbar-brand img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .main-content {
+      color: aliceblue;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 43%, rgba(199, 204, 205, 1) 100%);
+      overflow: auto;
+      padding: 20px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+      object-fit: contain;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand navbar-dark navbar-custom" aria-label="Second navbar example">
+  <a class="navbar-brand" href="/" style="margin-left: 0.5em;">
+    <img src="data:image/png;base64,..." alt="">
+  </a>
+  <p style="color: white;">TRAIN EAT SLEEP REPEAT</p>
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Accueil</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">Exemples</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="/search">Exemple des recettes</a></li>
+            <li><a class="dropdown-item" href="/search_exercise">Exemple des exercices</a></li>
+
+          </ul>
+        </li>
+
+      </ul>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false" style="color:rgb(255, 255, 255); padding-right: 2.5em;">Recherche</a>
+        <ul class="dropdown-menu">
+          <li>
+            <form role="search" >
+              <input type="text" placeholder="Recherche repas" formControlName="query" class="form-control">
+            </form>
+          </li>
+          <li>
+            <form role="search" >
+              <input type="text" placeholder="Recherche entrainement" formControlName="query1" class="form-control">
+            </form>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <form  action="/login" method="POST">
+          <button class="nav-link active" type="submit" style="color: white; padding-right: 1em;">Se connecter</button>
+        </form>
+      </li>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="main-content">
+  <div class="row mb-4 text-center">
+    <div class="col-6 themed-grid-col">
+      <div style="padding-top: 7em;">
+        <section>
+          <h2>Programmes d'entrainement personnalisés</h2>
+          <p>Nos programmes d'entrainement sont conçus pour répondre à vos besoins et objectifs spécifiques...</p>
+        </section>
+        <section>
+          <h2>Programmes d'alimentation adaptés</h2>
+          <p>L'alimentation joue un rôle important dans la réussite de votre programme d'entrainement...</p>
+        </section>
+        <section>
+          <h2>Commencez dès maintenant</h2>
+          <p>Que vous soyez débutant ou avancé...</p>
+          <a  style="color: white; text-decoration-color: rgb(182, 182, 182); padding: 10px; border: 1px solid white;" href="/new_user">Commencer</a>
+        </section>
+      </div>
+    </div>
+    <div class="col-6 themed-grid-col">
+      <div class="image-container" style="padding-top: 9em;">
+        <img src="https://img.freepik.com/free-photo/side-view-man-jumping-outdoors_23-2149557835.jpg?w=2000">
+      </div>
+    </div>
+  </div>
+</div>
+
