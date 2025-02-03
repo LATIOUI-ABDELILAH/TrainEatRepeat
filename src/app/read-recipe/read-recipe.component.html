@@ -1,0 +1,34 @@
+<app-header></app-header>
+<div class="readRecipe">
+<div class="container">
+  <div class="row mb-4 text-center">
+    <div class="col-6 themed-grid-col">
+      <h1 class="recipe-title">{{ recipe?.title }}</h1>
+      <p class="recipe-description">{{ recipe?.description }}</p>
+    </div>
+    <div class="col-6 themed-grid-col">
+      <div class="image-container">
+        <img [src]="recipe?.img" class="recipe-image">
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4 text-center">
+    <div>
+      <span class="section-title"> Ingrédients : </span>
+      <div *ngFor="let ingredient of recipe?.ingredients">
+        <p class="ingredient">{{ ingredient.name }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row mb-4 text-center">
+    <div>
+      <span class="section-title"> Étapes :</span>
+      <ol class="steps-list">
+        <li *ngFor="let stage of recipe?.stages" class="step">{{ stage.description }}</li>
+      </ol>
+    </div>
+  </div>
+</div>
+</div>

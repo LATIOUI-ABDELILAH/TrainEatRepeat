@@ -1,0 +1,38 @@
+<app-header></app-header>
+<div class="readExercise">
+<div class="container">
+  <h1 class="exercise-title">{{ exercise?.title }}</h1>
+
+  <div class="row mb-4 text-center">
+    <div class="col-6 themed-grid-col">
+      <p class="exercise-description">{{ exercise?.description }}</p>
+      <p class="type">Type : {{ exercise?.type }}</p>
+    </div>
+
+    <div class="col-6 themed-grid-col image-container">
+      <img class="exercise-image" [src]="exercise?.img" alt="{{ exercise?.title }}">
+    </div>
+  </div>
+
+  <div class="row mb-4 text-center">
+    <span class="section-title">Bénéfices :</span>
+    <ul class="steps-list">
+      <li class="step" *ngFor="let benefit of exercise?.benefits">{{ benefit.description }}</li>
+    </ul>
+  </div>
+
+  <div class="row mb-4 text-center">
+    <span class="section-title">Étapes :</span>
+    <ol class="steps-list">
+      <li class="step" *ngFor="let step of exercise?.steps">{{ step.description }}</li>
+    </ol>
+  </div>
+
+  <div class="row mb-4 text-center">
+    <span class="section-title">Fautes :</span>
+    <ol class="steps-list">
+      <li class="step" *ngFor="let mistake of exercise?.mistakes">{{ mistake.description }}</li>
+    </ol>
+  </div>
+</div>
+</div>

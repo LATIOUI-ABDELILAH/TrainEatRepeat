@@ -1,0 +1,24 @@
+.styleNav{
+  background-color: black;
+}
+.mark{
+  margin-left: 0.5em;
+}
+.titre{
+  color: white;
+}
+.Exemples{
+  color: white;
+}
+.nom{
+  color: aliceblue;
+}
+.recherche{
+  color:white;
+  padding-right: 2em;
+}
+.deconnecter, .connecter {
+  color: white;
+  padding-right: 1em;
+}
+

@@ -2,14 +2,22 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var cookieSession = require('cookie-session');
-var model = require('./model'); // Votre modèle de données
+var model = require('./model');
 var app = express();
+var cors = require('cors');
 
+
+app.use(cors({
+  origin: 'http://localhost:4200', // Spécifie l'origine exacte de ton frontend
+  credentials: true // Autorise l'envoi de cookies
+}));
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieSession({
   secret: 'mot-de-passe-du-cookie',
+  sameSite: 'lax',
+  secure: false
 }));
 
 
@@ -24,6 +32,14 @@ app.get('/api/calories', (req, res) => {
     });
   } else {
     res.status(401).json({ error: 'Unauthorized' });
+  }
+});
+
+app.get('/api/isLoggedIn', (req, res) => {
+  if (req.session.user) {
+    res.json({ user: req.session.user });
+  } else {
+    res.json({ user: null });
   }
 });
 
@@ -99,7 +115,10 @@ app.post('/api/new_user', (req, res) => {
   let user = model.new_user(req.body.name, req.body.password);
   req.session.user = user;
   req.session.name = req.body.name;
-  res.json({ message: 'User created and logged in' });
+  res.json({
+    message: 'User created and logged in',
+    user: user // Ajoute cette ligne pour inclure l'utilisateur dans la réponse
+  });
 });
 
 
@@ -162,5 +181,5 @@ function post_data_to_exercise(req) {
   };
 }
 
-// Server listening
+
 app.listen(3000, () => console.log('Server is running on http://localhost:3000'));

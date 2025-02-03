@@ -1,75 +1,45 @@
+<nav class="navbar navbar-expand navbar-dark styleNav" aria-label="Second navbar example">
+  <a class="navbar-brand mark">
+    <img src="data:image/png;base64,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" width="50" height="50" alt="">
+  </a>
+  <p class="titre">TRAIN EAT SLEEP REPEAT</p>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>TRAIN EAT SLEEP REPEAT</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-  <style>
-    .navbar-dark {
-      background-color: black;
-    }
-    .navbar-brand img {
-      width: 50px;
-      height: 50px;
-    }
-    .navbar-text {
-      color: white;
-      font-size: 1.2em;
-      font-weight: bold;
-    }
-    .dropdown-menu {
-      min-width: 15rem;
-    }
-    .form-control {
-      margin-bottom: 0.5rem;
-    }
-  </style>
-</head>
-<body>
-<nav class="navbar navbar-expand-lg navbar-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">
-      <img src="data:image/png;base64,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" width="50" height="50" alt="">
-    </a>
-    <span class="navbar-text">TRAIN EAT SLEEP REPEAT</span>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarContent">
+    <div class="collapse navbar-collapse" id="navbarsExample02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="/">Accueil</a>
+          <a class="nav-link active" aria-current="page" routerLink="/">Accueil</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Exemples</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/search">Exemple des recettes</a></li>
-            <li><a class="dropdown-item" href="/search_exercise">Exemple des exercices</a></li>
+
+        <li class="nav-item dropdown" [class.show]="isDropdownOpen">
+          <a class="nav-link dropdown-toggle Exemples" (click)="toggleDropdown()" role="button" aria-expanded="isDropdownOpen">Exemples</a>
+          <ul class="dropdown-menu" [class.show]="isDropdownOpen">
+            <li><a class="dropdown-item" routerLink="/search_recipe">Exemple des recettes</a></li>
+            <li><a class="dropdown-item" routerLink="/search_exercise">Exemple des exercices</a></li>
           </ul>
         </li>
+
       </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Recherche</a>
-          <ul class="dropdown-menu p-3">
-            <li>
-              <form>
-                <input type="text" class="form-control" placeholder="Recherche repas">
-              </form>
-            </li>
-            <li>
-              <form>
-                <input type="text" class="form-control" placeholder="Recherche entrainement">
-              </form>
-            </li>
-          </ul>
-        </li>
-      </ul>
+
+      <li class="nav-item dropdown" [class.show]="isSearchDropdownOpen">
+        <a class="nav-link dropdown-toggle recherche" (click)="toggleSearchDropdown()" role="button" aria-expanded="isSearchDropdownOpen">Recherche</a>
+        <ul class="dropdown-menu" [class.show]="isSearchDropdownOpen">
+          <li>
+            <form role="search" routerLink="/search_recipe">
+              <input type="text" placeholder="Recherche repas" name="query" aria-label="Search">
+            </form>
+          </li>
+          <li>
+            <form role="search" routerLink="/search_exercise">
+              <input type="text" placeholder="Recherche entraînement" name="query" aria-label="Search">
+            </form>
+          </li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link active connecter" routerLink="/">Se connecter</a>
+      </li>
     </div>
   </div>
 </nav>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-

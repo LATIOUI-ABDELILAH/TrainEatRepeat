@@ -1,0 +1,77 @@
+.readRecipe {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #121212;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  font-family: 'Arial', sans-serif;
+}
+
+.recipe-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.8);
+}
+
+.recipe-description {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.recipe-image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.5);
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00ffff;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.ingredient {
+  font-size: 1.1rem;
+  background: rgba(0, 255, 255, 0.1);
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px 0;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
+}
+
+.steps-list {
+  padding-left: 0;
+}
+
+.step {
+  list-style: none;
+  background: rgba(0, 255, 255, 0.1);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 255, 255, 0.2);
+  transition: 0.3s;
+}
+
+.step:hover {
+  background: rgba(0, 255, 255, 0.3);
+  transform: scale(1.02);
+}
+

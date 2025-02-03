@@ -1,0 +1,73 @@
+.searchRecipe {
+  background: black;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden; /* Empêche les débordements horizontaux */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre le contenu */
+  justify-content: center; /* Centre verticalement */
+  padding: 20px; /* Ajoute un peu d'espace */
+  box-sizing: border-box;
+}
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #121212; /* Fond sombre pour la carte */
+  color: white; /* Texte en blanc */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row-cols-1 .col,
+.row-cols-sm-2 .col,
+.row-cols-md-3 .col,
+.row-cols-lg-4 .col {
+  display: flex;
+}
+
+.album {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.album h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.d-flex.justify-content-end {
+  width: 100%;
+  padding: 20px;
+  position: absolute;
+  right: 20px;
+}
+

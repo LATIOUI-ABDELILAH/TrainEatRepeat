@@ -1,0 +1,115 @@
+<div class="newUser">
+<div class="container full-page-container d-flex justify-content-start align-items-start">
+  <div class="card p-4 shadow-lg">
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+
+
+      <div class="form-group mb-3">
+        <label for="first-name" class="form-label fw-bold">Prénom :</label>
+        <input id="first-name" type="text" class="form-control" formControlName="firstName" placeholder="Entrez votre prénom">
+
+        <div *ngIf="isFieldInvalid('firstName')" class="text-danger">
+          <small *ngIf="getErrorMessage('firstName')">Le prénom est requis.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="last-name" class="form-label fw-bold">Nom :</label>
+        <input id="last-name" type="text" class="form-control" formControlName="lastName" placeholder="Entrez votre nom">
+
+        <div *ngIf="isFieldInvalid('lastName')" class="text-danger">
+          <small *ngIf="getErrorMessage('lastName')">Le nom est requis.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="email" class="form-label fw-bold">Email :</label>
+        <input id="email" type="email" class="form-control" formControlName="email" placeholder="Entrez votre email">
+
+        <div *ngIf="isFieldInvalid('email')" class="text-danger">
+          <small *ngIf="getErrorMessage('email')">L'email est requis.</small>
+          <small *ngIf="getErrorMessage('email', 'email')">Veuillez entrer un email valide.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="password" class="form-label fw-bold">Mot de passe :</label>
+        <input id="password" type="password" class="form-control" formControlName="password" placeholder="Entrez votre mot de passe">
+
+        <div *ngIf="isFieldInvalid('password')" class="text-danger">
+          <small *ngIf="getErrorMessage('password')">Le mot de passe est requis.</small>
+          <small *ngIf="getErrorMessage('password', 'minlength')">Le mot de passe doit contenir au moins 8 caractères.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="age" class="form-label fw-bold">Âge :</label>
+        <input id="age" type="number" class="form-control" formControlName="age" placeholder="Entrez votre âge">
+
+        <div *ngIf="isFieldInvalid('age')" class="text-danger">
+          <small *ngIf="getErrorMessage('age')">L'âge est requis.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="gender" class="form-label fw-bold">Genre :</label>
+        <select id="gender" class="form-control" formControlName="gender">
+          <option value="">Sélectionnez votre genre</option>
+          <option value="male">Homme</option>
+          <option value="female">Femme</option>
+        </select>
+
+        <div *ngIf="isFieldInvalid('gender')" class="text-danger">
+          <small *ngIf="getErrorMessage('gender')">Le genre est requis.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="weight" class="form-label fw-bold">Poids (kg) :</label>
+        <input id="weight" type="number" class="form-control" formControlName="weight" placeholder="Entrez votre poids">
+        <div *ngIf="isFieldInvalid('weight')" class="text-danger">
+          <small *ngIf="getErrorMessage('weight')">Le poids est requis.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="height" class="form-label fw-bold">Taille (cm) :</label>
+        <input id="height" type="number" class="form-control" formControlName="height" placeholder="Entrez votre taille">
+        <div *ngIf="isFieldInvalid('height')" class="text-danger">
+          <small *ngIf="getErrorMessage('height')">La taille est requise.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="activity" class="form-label fw-bold">Niveau d'activité :</label>
+        <select id="activity" class="form-control" formControlName="activity">
+        <option value="sedentary" title="Travail sédentaire, peu d'activité physique, pas de sport régulier">Mode de vie sédentaire ou léger</option>
+        <option value="lightly-active" title="Travail peu exigeant, mais avec activité physique modérée ou sport régulier">Mode de vie actif ou modérément actif</option>
+        <option value="very-active" title="Travail très physique ou entraînement intensif quotidien">Mode de vie énergique ou vigoureusement actif</option>
+      </select>
+        <div *ngIf="isFieldInvalid('activity')" class="text-danger">
+          <small *ngIf="getErrorMessage('activity')">Le niveau d'activité est requis.</small>
+        </div>
+      </div>
+
+      <div class="form-group mb-3">
+        <label for="objectif" class="form-label fw-bold">Objectif :</label>
+        <select id="objectif" class="form-control" formControlName="objectif">
+          <option value="lose-weight">Perdre du poids</option>
+          <option value="maintain-weight">Maintenir son poids</option>
+          <option value="gain-weight">Gagner du poids</option>
+        </select>
+        <div *ngIf="isFieldInvalid('objectif')" class="text-danger">
+          <small *ngIf="getErrorMessage('objectif')">L'objectif est requis.</small>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary px-5" [disabled]="profileForm.invalid">
+          Envoyer
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+</div>

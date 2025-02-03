@@ -1,0 +1,39 @@
+<app-header></app-header>
+<div class="searchRecipe">
+<div class="album py-5">
+  <div>
+    <h1>{{ searchResults.num_found }} recettes trouvées
+      <span *ngIf="searchResults.page"> (page {{ searchResults.page }}/{{ searchResults.num_pages }}) </span>
+    </h1>
+  </div>
+</div>
+
+<div class="album py-5" *ngIf="searchResults.informationss.length > 0">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <div class="col" *ngFor="let info of searchResults.informationss">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top"  [src]="info.img" alt="{{ info.title }}">
+          <div class="card-body">
+            <a [routerLink]="'/read/' + info.entry">
+              <p class="card-text">{{ info.title }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div *ngIf="searchResults.next_page && searchResults.page < searchResults.num_pages" class="d-flex justify-content-end">
+    <a [routerLink]="['/search_recipe']" [queryParams]="{ query: searchResults.query, page: searchResults.next_page }" class="btn btn-primary">
+      Page suivante
+    </a>
+  </div>
+</div>
+
+<div *ngIf="searchResults.informationss.length === 0 && searchResults.num_found > 0">
+  <p>Aucune recette trouvée pour cette page.</p>
+</div>
+
+</div>

@@ -1,0 +1,27 @@
+.index{
+  color:aliceblue ;
+  background:linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 43%, rgba(199,204,205,1) 100%);
+  overflow: auto;
+  padding: 20px;
+}
+.text{
+  padding-top: 7em;
+}
+.bouttonCommencer{
+  color: white; text-decoration-color: rgb(182, 182, 182);display: inline-block;
+  padding: 10px;
+  border: 1px solid white;
+}
+.image-container{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 9em;
+}
+.indexImage{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
