@@ -18,11 +18,11 @@ import {FormsModule} from "@angular/forms";
   styleUrls: ['./header-authentified.component.css']
 })
 export class HeaderAuthentifiedComponent implements OnInit {
-  user: any = null;
-  searchQueryRecipe: string = '';
-  searchQueryExercise: string = '';
-  isDropdownOpen = false;
-  isSearchDropdownOpen = false;
+  public user: any = null;
+  public searchQueryRecipe: string = '';
+  public searchQueryExercise: string = '';
+  public isDropdownOpen = false;
+  public isSearchDropdownOpen = false;
 
   constructor(private authService: AuthService, private router: Router) {}
 

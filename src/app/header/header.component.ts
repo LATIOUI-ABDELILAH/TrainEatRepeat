@@ -14,8 +14,8 @@ import {FormsModule} from "@angular/forms";
 })
 export class HeaderComponent implements OnInit {
   public user: any = null;
-  searchQueryRecipe: string = '';
-  searchQueryExercise: string = '';
+  public searchQueryRecipe: string = '';
+  public searchQueryExercise: string = '';
   constructor(private authService: AuthService, private router: Router) {}
 
   ngOnInit() {

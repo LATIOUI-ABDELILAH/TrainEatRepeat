@@ -2,13 +2,13 @@
   background: black;
   min-height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 20px;
   box-sizing: border-box;
+  overflow: auto;
 }
 
 .album {
@@ -34,11 +34,11 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px; /* Réduit l’espace entre les cartes */
+  gap: 10px;
 }
 
 .col {
-  flex: 1 1 calc(25% - 10px); /* Permet de garder 4 cartes par ligne */
+  flex: 1 1 calc(25% - 10px);
   max-width: 250px;
 }
 
@@ -58,7 +58,7 @@ h1 {
 
 .card-img-top {
   width: 100%;
-  height: 150px; /* Réduction de la hauteur des images */
+  height: 150px;
   object-fit: cover;
 }
 

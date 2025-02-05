@@ -26,13 +26,11 @@ export class ProgramRecipeComponent implements OnInit {
   constructor(private http: HttpClient, private router: Router, private authService: AuthService) { }
 
   ngOnInit(): void {
-    // Souscription à l'Observable pour récupérer la valeur de l'utilisateur
     this.authService.getUser().subscribe({
       next: (userData) => {
         this.user = userData;
         console.log("User JSON:", this.user);
 
-        // Une fois l'utilisateur récupéré, appeler fetchProgrammes()
         this.fetchProgrammes();
       },
       error: (error) => {
@@ -47,7 +45,7 @@ export class ProgramRecipeComponent implements OnInit {
       return;
     }
 
-    // Faire la requête avec l'ID de l'utilisateur
+
     this.http.get<any>(`http://localhost:3000/ProgramRecipe/${this.user.name}`, { withCredentials: true })
       .subscribe({
         next: (response) => {

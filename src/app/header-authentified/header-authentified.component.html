@@ -24,13 +24,12 @@
         <a class="nav-link dropdown-toggle recherche" (click)="toggleSearchDropdown()" role="button" aria-expanded="isSearchDropdownOpen">Recherche</a>
         <ul class="dropdown-menu" [class.show]="isSearchDropdownOpen">
           <li>
-            <!-- Formulaire pour la recherche de recettes -->
             <form (ngSubmit)="onSubmitSearchRecipe()" #searchRecipeForm="ngForm">
               <input type="text" placeholder="Recherche repas" name="query" [(ngModel)]="searchQueryRecipe" (keydown.enter)="onSubmitSearchRecipe()" aria-label="Search" required>
             </form>
           </li>
           <li>
-            <!-- Formulaire pour la recherche d'exercices -->
+
             <form (ngSubmit)="onSubmitSearchExercise()" #searchExerciseForm="ngForm">
               <input type="text" placeholder="Recherche entraînement" name="query" [(ngModel)]="searchQueryExercise" (keydown.enter)="onSubmitSearchExercise()" aria-label="Search" required>
             </form>

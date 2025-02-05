@@ -12,7 +12,6 @@
       <input type="password" id="password" class="form-control" formControlName="password" placeholder="Entrez votre mot de passe" required>
     </div>
 
-    <!-- Affichage du message d'erreur -->
     <p class="text-danger" *ngIf="errorMessage">{{ errorMessage }}</p>
 
     <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Se connecter</button>

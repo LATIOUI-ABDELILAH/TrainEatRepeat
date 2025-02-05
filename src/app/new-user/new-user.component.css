@@ -102,9 +102,9 @@ select.form-control option {
 .image-container {
   position: fixed;
   top: 50%;
-  right: 5%; /* Ajuste cette valeur pour affiner la position */
-  transform: translateY(-50%); /* Centre verticalement */
-  max-width: 40vw; /* Limite la largeur pour éviter qu'elle prenne trop de place */
+  right: 5%;
+  transform: translateY(-50%);
+  max-width: 40vw;
 }
 
 
