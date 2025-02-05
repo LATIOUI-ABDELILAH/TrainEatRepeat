@@ -24,6 +24,8 @@ Ces commandes servent à démarrer le backend.
 
 Rien à faire pour configurer le backend, il faut juste céer la base de données et démarrer le backend
 
+cd backend
+
 node create-db.js
 
 node server.js
