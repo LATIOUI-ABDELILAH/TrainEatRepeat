@@ -7,18 +7,25 @@ Accédez au répertoire **backend** où se trouvent les dépendances et le serve
 ### 2. Cas de : Git Bash
 
 cd backend
+
 rm -rf node_modules package-lock.json
+
 npm install
+
 npm rebuild better-sqlite3
+
 node create-db.js
+
 node server.js
 
 Ces commandes servent à démarrer le backend.
 
 ### 3. Cas de : Ubuntu/Linux
 
-Rien à faire pour le backend
+Rien à faire pour configurer le backend, il faut juste céer la base de données et démarrer le backend
+
 node create-db.js
+
 node server.js
 
 ## Communication Backend
