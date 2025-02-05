@@ -1,0 +1,28 @@
+
+<div class="searchProgramRecipe">
+<div class="album py-5 ">
+  <div>
+    <h1>Programme de nutrition</h1>
+  </div>
+</div>
+
+<div class="album py-5">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+      <div *ngFor="let recipe of recipes" class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" [src]="recipe.img" alt="Recipe Image" role="img" aria-label="Recipe Thumbnail">
+          <div class="card-body">
+            <a [routerLink]="['/read', recipe.entry]">
+              <p class="card-text">{{ recipe.title }}</p>
+            </a>
+            <div class="d-flex justify-content-between align-items-center">
+              <!-- Additional content can go here if necessary -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>

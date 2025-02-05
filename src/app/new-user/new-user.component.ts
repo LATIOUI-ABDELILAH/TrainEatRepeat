@@ -64,7 +64,7 @@ export class NewUserComponent {public profileForm: FormGroup = new FormGroup({
           }).subscribe({
             next: (infoResponse) => {
               console.log('User information saved:', infoResponse);
-              this.router.navigate(['/']);
+              this.router.navigate(['/indexAuthentified']);
             },
             error: (err) => {
               console.error('Error saving user information:', err);

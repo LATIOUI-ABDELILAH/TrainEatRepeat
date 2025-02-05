@@ -8,8 +8,8 @@ var cors = require('cors');
 
 
 app.use(cors({
-  origin: 'http://localhost:4200', // Spécifie l'origine exacte de ton frontend
-  credentials: true // Autorise l'envoi de cookies
+  origin: 'http://localhost:4200',
+  credentials: true
 }));
 
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -45,7 +45,7 @@ app.get('/api/isLoggedIn', (req, res) => {
 
 app.get('/api/user', (req, res) => {
   if (req.session.user !== undefined) {
-    res.json({ name: req.session.name });
+    res.json({ name: req.session.user });
   } else {
     res.status(401).json({ error: 'Unauthorized' });
   }
@@ -100,7 +100,9 @@ app.post('/api/login', (req, res) => {
   if (user !== -1) {
     req.session.user = user;
     req.session.name = req.body.name;
-    res.json({ message: 'Login successful' });
+    res.json({ message: 'Login successful',
+      user: user,
+      name: req.body.name});
   } else {
     res.status(401).json({ error: 'Invalid credentials' });
   }
@@ -167,7 +169,27 @@ app.delete('/api/exercise/:id', (req, res) => {
   model.delete_exercise(req.params.id);
   res.json({ message: 'Exercise deleted' });
 });
+app.get('/ProgramRecipe/:id', (req, res) => {
 
+  model.create_NutritionProgramme(req.params.id);
+  var info = model.ProgramRecipe(req.params.id, req.query.query, req.query.page);
+
+  if (!info) {
+    return res.status(404).json({ error: "Programme non trouvé" });
+  }
+
+  res.json(info);
+});
+
+app.get('/ProgramExercise/:id/:type/:type2',function(req, res) {
+  model.create_ExerciseProgramme(req.params.id);
+  var info=model.ProgramExercise(req.params.id,req.params.type,req.params.type2,req.query.query, req.query.page);
+  if (!info) {
+    return res.status(404).json({ error: "Programme non trouvé" });
+  }
+
+  res.json(info);
+});
 
 function post_data_to_exercise(req) {
   return {
@@ -179,6 +201,7 @@ function post_data_to_exercise(req) {
     steps: req.body.steps.trim().split(/\s*-/).filter(e => e.length > 0).map(e => ({description: e.trim()})),
     mistakes: req.body.mistakes.trim().split(/\s*-/).filter(e => e.length > 0).map(e => ({description: e.trim()})),
   };
+
 }
 
 

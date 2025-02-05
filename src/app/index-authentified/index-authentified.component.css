@@ -1,0 +1,90 @@
+.indexAuthentified {
+  background: black;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden; /* Empêche les débordements horizontaux */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre le contenu */
+  justify-content: center; /* Centre verticalement */
+  padding: 20px; /* Ajoute un peu d'espace */
+  box-sizing: border-box;
+}
+.container {
+  background: linear-gradient(135deg, #1a1a2e, #121212); /* Fond sombre avec un dégradé subtil */
+  padding: 2em;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.info-title h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.info-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info-details li {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.info-details .label {
+  font-weight: bold;
+  color: #00ffff;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2em;
+  padding: 0 1em;
+}
+
+.link-item {
+  text-align: center;
+  width: 45%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.link-item:hover {
+  transform: scale(1.05);
+}
+
+.link-item h2 {
+  color: #00ffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.link-item img {
+  width: 100%;
+  max-width: 75%;
+  border-radius: 12px;
+  box-shadow: 0px 0px 25px rgba(0, 255, 255, 0.3);
+  transition: opacity 0.3s ease;
+}
+
+.link-item img:hover {
+  opacity: 0.85;
+}
+
+.container:hover {
+  box-shadow: 0 0 35px rgba(0, 255, 255, 0.4);
+}

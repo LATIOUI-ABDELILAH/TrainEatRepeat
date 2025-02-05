@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand navbar-dark styleNav" aria-label="Second navbar example">
   <a class="navbar-brand mark">
-    <img src="/assets/haltere.png" alt="Logo" class="logo">
+    <img src="/assets/haltere.png" width="50" height="50">
   </a>
   <p class="titre">TRAIN EAT SLEEP REPEAT</p>
 
@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarsExample02">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="/">Accueil</a>
+          <a class="nav-link active" aria-current="page" routerLink="/indexAuthentified">Accueil</a>
         </li>
 
         <li class="nav-item dropdown" [class.show]="isDropdownOpen">
@@ -18,20 +18,19 @@
             <li><a class="dropdown-item" routerLink="/search_exercise">Exemple des exercices</a></li>
           </ul>
         </li>
-
       </ul>
 
       <li class="nav-item dropdown" [class.show]="isSearchDropdownOpen">
         <a class="nav-link dropdown-toggle recherche" (click)="toggleSearchDropdown()" role="button" aria-expanded="isSearchDropdownOpen">Recherche</a>
         <ul class="dropdown-menu" [class.show]="isSearchDropdownOpen">
           <li>
-            <!-- Recherche recette avec gestion de la touche 'Enter' -->
+            <!-- Formulaire pour la recherche de recettes -->
             <form (ngSubmit)="onSubmitSearchRecipe()" #searchRecipeForm="ngForm">
               <input type="text" placeholder="Recherche repas" name="query" [(ngModel)]="searchQueryRecipe" (keydown.enter)="onSubmitSearchRecipe()" aria-label="Search" required>
             </form>
           </li>
           <li>
-            <!-- Recherche exercice avec gestion de la touche 'Enter' -->
+            <!-- Formulaire pour la recherche d'exercices -->
             <form (ngSubmit)="onSubmitSearchExercise()" #searchExerciseForm="ngForm">
               <input type="text" placeholder="Recherche entraînement" name="query" [(ngModel)]="searchQueryExercise" (keydown.enter)="onSubmitSearchExercise()" aria-label="Search" required>
             </form>
@@ -40,7 +39,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link active connecter" routerLink="/login">Se connecter</a>
+        <a class="nav-link active deconnecter" (click)="logoutAndRedirect()">Se déconnecter</a>
       </li>
     </div>
   </div>

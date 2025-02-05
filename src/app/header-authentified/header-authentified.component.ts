@@ -1,21 +1,29 @@
 import { Component, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { AuthService } from '../authService/auth-service.service';
-import {Router, NavigationEnd, RouterLink} from '@angular/router';
-import { filter } from 'rxjs/operators';
+import { AuthService } from "../authService/auth-service.service";
+import {Router, RouterLink} from "@angular/router";
+import { NgIf } from "@angular/common";
+import { NavigationEnd } from "@angular/router";
+import { filter } from "rxjs/operators";
 import {FormsModule} from "@angular/forms";
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-header-authentified',
   standalone: true,
-  imports: [CommonModule, RouterLink, FormsModule],
-  templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  imports: [
+    NgIf,
+    FormsModule,
+    RouterLink
+  ],
+  templateUrl: './header-authentified.component.html',
+  styleUrls: ['./header-authentified.component.css']
 })
-export class HeaderComponent implements OnInit {
-  public user: any = null;
+export class HeaderAuthentifiedComponent implements OnInit {
+  user: any = null;
   searchQueryRecipe: string = '';
   searchQueryExercise: string = '';
+  isDropdownOpen = false;
+  isSearchDropdownOpen = false;
+
   constructor(private authService: AuthService, private router: Router) {}
 
   ngOnInit() {
@@ -25,19 +33,28 @@ export class HeaderComponent implements OnInit {
     this.router.events.pipe(
       filter(event => event instanceof NavigationEnd)
     ).subscribe(() => {
-      this.authService.isLoggedIn().subscribe(user => {
+      this.authService.getUser().subscribe(user => {
         this.user = user;
+        console.log(user.name);
       });
     });
   }
-  isDropdownOpen = false;
-  isSearchDropdownOpen = false;
+
   toggleDropdown() {
     this.isDropdownOpen = !this.isDropdownOpen;
   }
+
   toggleSearchDropdown() {
     this.isSearchDropdownOpen = !this.isSearchDropdownOpen;
   }
+
+  logoutAndRedirect() {
+    this.authService.logout().subscribe(() => {
+      this.user = null;
+      this.router.navigate(['/home']);
+    });
+  }
+
   onSubmitSearchRecipe() {
     if (this.searchQueryRecipe) {
       this.router.navigate(['/search_recipe'], { queryParams: { query: this.searchQueryRecipe } });
@@ -49,5 +66,4 @@ export class HeaderComponent implements OnInit {
       this.router.navigate(['/search_exercise'], { queryParams: { query: this.searchQueryExercise } });
     }
   }
-
 }
