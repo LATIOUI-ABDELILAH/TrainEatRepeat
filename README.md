@@ -1,3 +1,31 @@
+## Démarrage du Projet
+
+### 1. Naviguer vers le répertoire backend
+
+Accédez au répertoire **backend** où se trouvent les dépendances et le serveur du projet :
+
+### 2. Cas de : Git Bash
+
+cd backend
+rm -rf node_modules package-lock.json
+npm install
+npm rebuild better-sqlite3
+node create-db.js
+node server.js
+
+Ces commandes servent à démarrer le backend.
+
+### 3. Cas de : Ubuntu/Linux
+
+Rien à faire pour le backend
+node create-db.js
+node server.js
+
+## Communication Backend
+
+Pour communiquer avec le backend, il faut que le frontend tourne sur le port 4200. Si vous utilisez un autre port, cela ne va pas marcher.
+
+
 # Traineatrepeat
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.4.
